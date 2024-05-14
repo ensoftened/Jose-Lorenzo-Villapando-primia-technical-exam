@@ -1,0 +1,57 @@
+.fadeScaleShort-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+.fadeScaleShort-enter-active {
+opacity: 1;
+transform: translateX(0);
+transition: opacity 100ms, transform 100ms;
+}
+.fadeScaleShort-exit {
+opacity: 1;
+}
+.fadeScaleShort-exit-active {
+opacity: 0;
+transform: scale(0.9);
+transition: opacity 300ms, transform 300ms;
+}
+
+.example-enter {
+    height: 0;
+}
+  
+.example-enter-active {
+    overflow: hidden;
+    height: 1000px; /* Use 'auto' for the component's natural height */
+    transition: height 300ms;
+}
+
+.example-exit {
+    overflow: hidden;
+
+    height: 1000px; /* Use 'auto' to maintain the current height before exiting */
+}
+
+.example-exit-active {
+    height: 0;
+    transition: height 300ms;
+}
+
+
+.fadeScaleLong-enter {
+    opacity: 0;
+
+}
+.fadeScaleLong-enter-active {
+    opacity: 1;
+
+    transition: opacity 400ms;
+}
+.fadeScaleLong-exit {
+    opacity: 1;
+}
+.fadeScaleLong-exit-active {
+    opacity: 0;
+
+    transition: opacity 400ms;
+}

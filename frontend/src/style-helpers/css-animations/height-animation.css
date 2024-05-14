@@ -1,0 +1,17 @@
+.example-enter {
+    height: 0;
+}
+  
+.example-enter-active {
+    height: auto; /* Use 'auto' for the component's natural height */
+    transition: height 300ms;
+}
+
+.example-exit {
+    height: auto; /* Use 'auto' to maintain the current height before exiting */
+}
+
+.example-exit-active {
+    height: 0;
+    transition: height 300ms;
+}

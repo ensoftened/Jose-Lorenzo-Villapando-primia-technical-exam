@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url(./fonts/Helvetica\ Neue.ttf);
+}
+@font-face {
+  font-family: "Product Sans Regular";
+  src: url(./fonts/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Light";
+  src: url(./fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto Thin";
+  src: url(./fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(./fonts/Helvetica\ Neue.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: url(./fonts/OpenSans-Light.ttf);
+}
+
+.fadeIn{
+  opacity:1;
+  width:100px;
+  height:100px;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+}
+
+
+::placeholder {
+  color: rgb(160, 175, 190);
+  opacity: 1; /* Firefox */
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
