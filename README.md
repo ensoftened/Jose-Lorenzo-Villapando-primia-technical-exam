@@ -70,7 +70,7 @@ CREATE TABLE system_users (
 5. To match the credentials setup in your MySQL, you have to change MYSQL_HOST, MYSQL_USER, and MYSQL_PASSWORD
 6. Open this folder: Jose-Lorenzo-Villapando-primia-technical-exam
 7. Run command line in this folder
-8. Type these following commands:
+8. Input these commands:
 	```
 	cd backend
 	npm install
@@ -82,7 +82,7 @@ CREATE TABLE system_users (
 
 1. Open this folder: Jose-Lorenzo-Villapando-primia-technical-exam
 2. Run command line in this folder
-3. Type these following commands:
+3. Input these commands:
 ```
 	cd frontend
 	npm install
@@ -92,8 +92,8 @@ CREATE TABLE system_users (
 
 # Explanation
 
-I just followed the basic flow of MERN stack. Actually, I have my own built-in component libraries and necessary directories in my client side that are customizable, in order to make coding with styles easier. 
-I also used axios library to make an http request from the client side to server side.
+I just followed the basic flow of MERN stack. Actually, I have my own built-in component libraries and own structure in my client side that are customizable to make coding with styles easier. 
+I also used the axios library to make an http request from the client side to server side.
 
 If you are going to ask me what will be the improvements I would like to implement if I have more time, I want to add the following:
 
