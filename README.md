@@ -1,6 +1,6 @@
 # Instructions on how to install and run this system in your local environment
 
-In order to run this application in your local machine, please make sure you have already installed Node.js (for running npm), and mysql (mysql server and MySQL 8.0 Command Line Client). 
+To run this application on your local machine, please make sure you have already installed Node.js (for running npm), and mysql (mysql server and MySQL 8.0 Command Line Client). 
 Make sure your mysql credentials are already configured and the necessary environment variables as well.
 
 
@@ -10,7 +10,7 @@ After cloning this repository, please do follow the instructions from sections A
 ## A. Setting up the MySQL database using MySQL 8.0 Command Line Client
 
 1. Start MySQL 8.0 Command Line Client
-2. Please enter your MySQL password
+2. Please enter the MySQL password you configured in your machine
 3. The name of the database is "hr_hiring" it has three (3) tables named "positions", "position_candidate", and "system_users"
 4. Paste this SQL script to your MySQL Command Line Client:
 ```
@@ -92,13 +92,14 @@ CREATE TABLE system_users (
 
 # Explanation
 
-I just followed the basic flow of MERN stack. I actually have my own built-in component libraries and necessary directories in my client side that are customizable, in oder to make coding with styles easier. 
+I just followed the basic flow of MERN stack. Actually, I have my own built-in component libraries and necessary directories in my client side that are customizable, in order to make coding with styles easier. 
 I also used axios library to make an http request from the client side to server side.
 
 If you are going to ask me what will be the improvements I would like to implement if I have more time, I want to add the following:
 
 1. E-mail module. Once the candidate gets hired, he/she will get a verification email to completely setup his/her account
 2. Login feature. This is essential because every activity needs to be authorized by each user.
-3. Audit trail feature. This is important in order to keep track all the activities of every user on the system.
-4. More necessary fields that are relevant for each entity.
+3. Audit trail feature. In order to keep track all the activities of every user on the system.
+4. Dashboard. A Dashboard that shows charts and graphs that summarize the activities within given periods.
+5. More necessary fields that are relevant for each entity.
 
